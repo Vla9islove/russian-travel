@@ -1,0 +1,25 @@
+.intro__titile {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 431px) {
+  .intro__titile {
+    font-size: 45px;
+    line-height: 1.25;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__titile {
+    font-size: 32px;
+    line-height: 1.10;
+  }
+}

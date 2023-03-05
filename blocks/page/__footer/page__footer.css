@@ -1,0 +1,30 @@
+.page__footer {
+  margin: 92px auto 0;
+  width: calc(100% - 2*48px);
+}
+
+@media screen and (max-width: 1023px) {
+  .page__footer {
+    width: calc(100% - 2*24px);
+    margin: 88px auto 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page__footer {
+    width: calc(100% - 2*16px);
+    margin: 64px auto 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .page__footer {
+    flex-direction: column;
+    row-gap: 48px;
+    max-height: 310px;
+    max-width: 186px;
+    justify-content: flex-start;
+    width: calc(100% - 2*16px);
+    margin: 64px 16px 0;
+  }
+}
