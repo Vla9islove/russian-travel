@@ -15,7 +15,7 @@
     grid-template-columns: 440px 1fr;
     grid-template-rows: min-content 440px;
     width: calc(100% - 2*48px);
-    grid-gap: 32px 48px;
+    grid-gap: 48px 32px;
   }
 }
 
@@ -24,7 +24,7 @@
     grid-template-columns: 340px 1fr;
     grid-template-rows: min-content max-content;
     width: calc(100% - 2*24px);
-    grid-gap: 28px 48px;
+    grid-gap: 48px 28px;
   }
 }
 
@@ -32,7 +32,8 @@
   .place__item {
     grid-template-columns: 1fr;
     grid-template-rows: max-content;
-    width: calc(100% - 2*16px);
+    width: 100%;
+    gap: 32px;
     grid-template-areas:
     "title"
     "website"

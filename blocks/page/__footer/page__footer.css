@@ -21,10 +21,7 @@
   .page__footer {
     flex-direction: column;
     row-gap: 48px;
-    max-height: 310px;
-    max-width: 186px;
     justify-content: flex-start;
-    width: calc(100% - 2*16px);
     margin: 64px 16px 0;
   }
 }
